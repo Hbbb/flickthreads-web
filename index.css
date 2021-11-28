@@ -72,6 +72,13 @@ section.copy {
 	height: 570px;
 }
 
+footer {
+	font-family: Sf Mono;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
 
 @media screen and (max-width: 415px) {
 	main {
@@ -86,4 +93,12 @@ section.copy {
 	.phone-mock img {
 		width: 100%;
 	}
+
+	footer {
+		text-align: center;
+		min-height: 50px;
+		position: static;
+	}
+}
+
 }
