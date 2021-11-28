@@ -71,3 +71,19 @@ section.copy {
 	width: 480px;
 	height: 570px;
 }
+
+
+@media screen and (max-width: 415px) {
+	main {
+		flex-direction: column;
+		padding: 0;
+	}
+
+	section.copy {
+		padding: 10px;
+	}
+
+	.phone-mock img {
+		width: 100%;
+	}
+}
