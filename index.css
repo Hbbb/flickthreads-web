@@ -73,16 +73,7 @@ section.copy {
 
 .join {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-family: Sf Mono;
-	text-decoration: none;
-	color: white;
-	width: 160px;
-	height: 50px;
-	background-color: #11222F;
 	margin-top: 20px;
-	box-shadow: 4px 4px #74cbbc;
 }
 .join.mobile {
 	display: none;
@@ -123,6 +114,7 @@ footer {
 	.join.mobile {
 		display: flex;
 		margin: 0 auto 20px;
+		justify-content: center;
 	}
 }
 
