@@ -68,7 +68,8 @@ section.copy {
 
 .phone-mock img {
 	object-fit: cover;
-	height: 570px;
+	height: auto;
+	width: 100%;
 }
 
 .join {
@@ -99,6 +100,7 @@ footer {
 
 	.phone-mock img {
 		width: 100%;
+		height: auto;
 	}
 
 	footer {
